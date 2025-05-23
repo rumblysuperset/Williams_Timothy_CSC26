@@ -9,9 +9,9 @@ public class Difference_Arrays_ArrayLists
         // ----------- Using an Array -----------
         System.out.println("Array Example:");
         String[] fruitsArray = new String[3]; // Fixed size
-        fruitsArray[0] = "Hello";
-        fruitsArray[1] = "Beautiful";
-        fruitsArray[2] = "World";
+        fruitsArray[0] = "Apple";
+        fruitsArray[1] = "Peach";
+        fruitsArray[2] = "Mango";
 
         for (int i = 0; i < fruitsArray.length; i++) 
         {
@@ -24,10 +24,10 @@ public class Difference_Arrays_ArrayLists
         // ----------- Using an ArrayList -----------
         System.out.println("\nArrayList Example:");
         ArrayList<String> fruitsList = new ArrayList<>(); // Dynamic size
-        fruitsList.add("Hello");
-        fruitsList.add("Beautiful");
-        fruitsList.add("World");
-        fruitsList.add("!"); // Works fine
+        fruitsList.add("Grapes");
+        fruitsList.add("Pineapple");
+        fruitsList.add("Guava");
+        fruitsList.add("Watermelon"); // Works fine
 
         for (int i = 0; i < fruitsList.size(); i++) 
         {
