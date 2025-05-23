@@ -9,9 +9,9 @@ public class Difference_Arrays_ArrayLists
         // ----------- Using an Array -----------
         System.out.println("Array Example:");
         String[] fruitsArray = new String[3]; // Fixed size
-        fruitsArray[0] = "Apple";
-        fruitsArray[1] = "Peach";
-        fruitsArray[2] = "Mango";
+        fruitsArray[0] = "Grapes";
+        fruitsArray[1] = "Pineapple";
+        fruitsArray[2] = "Guava";
 
         for (int i = 0; i < fruitsArray.length; i++) 
         {
@@ -27,7 +27,7 @@ public class Difference_Arrays_ArrayLists
         fruitsList.add("Grapes");
         fruitsList.add("Pineapple");
         fruitsList.add("Guava");
-        fruitsList.add("Watermelon"); // Works fine
+        fruitsList.add("Mango"); // Works fine
 
         for (int i = 0; i < fruitsList.size(); i++) 
         {
